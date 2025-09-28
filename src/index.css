@@ -1,8 +1,7 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* custom tweaks */
-body { @apply bg-slate-50 text-slate-800; }
-.glass { background: linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.6)); backdrop-filter: blur(6px); }
+body {
+  font-family: 'Inter', sans-serif;
+}
